@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 14vh;
+    display: flex;
+    color: white;
+    background-color: #12203C;
+}
+.logo{
+    height: 8vh;
+    margin-left: 2vw;
+}
+.top_search{
+    width: 30vw;
+    height: 6vh;
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    border-radius: 0.2em;
+    border: 0;
+}
+.free_quotes{
+    background: lime;
+    margin-left: 20vw;
+    position: relative;
+    top: 2vh;
+    height: 5vh;
+    padding: 1vh;
+    border: 0;
+    border-radius: 0.2em;
+}
+.how{
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    padding: 1vh;
+}
+.login{
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    padding: 1vh;
+}
+
+.sub_nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 2vh;
+    background-color: rgb(209, 202, 202);
+}
+.all_sub_img{
+    width: 3vw;
+    
+}
+.join_community{
+    background-color: lime;
+    border: 0;
+    border-radius: 0.3em;
+}
+
+
+
+
+.trending_house{
+    margin-left: 2vw;
+    padding: 2vh 0;
+    font-size: 4vh;
+}
+.house_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 2vw;
+}
+.houses_img{
+    width: 22vw;
+    height: 30vh;
+}
+.land_area{
+    width: 22vw;
+    border: 0;
+    background-color: #12203C;
+    height: 5vh;
+}
+
+
+
+
+.house_cost{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3vh 0;
+}
+.quick_search{
+    background-color: rgba(223, 215, 215, 0.493);
+    padding-left: 3vw;
+    width: 37vw;
+}
+.calc1{
+    margin-left: 1vw;
+}
+.small_floor{
+    width: 14vw;
+    margin-bottom: 2vh;
+}
+.floor{
+    width: 28.5vw;
+    margin-top: 2vh;
+}
+.house_calculation_img{
+    width: 30vw;
+}
+
+.featured_img{
+    margin: 3vh 0;
+}
+
+.interior_div{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 65%;
+    grid-gap: 1vw;
+    margin-left: 2vw;
+}
+.interior_img{
+    width: 18vw;
+    height: 20vh;
+}
+.interior_btn{
+    width: 18vw;
+    border: 0;
+    background-color: #12203C;
+    height: 5vh;
+}
